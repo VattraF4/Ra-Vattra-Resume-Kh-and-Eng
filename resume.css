@@ -84,6 +84,7 @@
        display: block;
    }
 
+   /* name and title */
    .name-title {
        text-align: center;
        margin-top: 10px;
@@ -107,6 +108,7 @@
        color: #ff6600f3;
    }
 
+   /* Contact Information Style is here */
    .contact-info,
    .languages,
    .activities {
@@ -123,6 +125,16 @@
    .languages i,
    .activities i {
        margin-right: 10px;
+   }
+
+   .contact-info p i a {
+       text-decoration: none;
+       color: white;
+       font-weight: normal;
+   }
+
+   .contact-info p i a:hover {
+       color: #00f7ff;
    }
 
    .experience,
@@ -211,24 +223,24 @@
    }
 
    .Academy ul ul p a button {
-    background-color: #3498db;
-    color: white;
-    padding: 10px;
-    font-size: 12px;
-    border: none;
-    cursor: pointer;
-    transition: transform 0.9s;
-    margin-bottom: 15px;
-    margin-left: -6px;
-}
+       background-color: #3498db;
+       color: white;
+       padding: 10px;
+       font-size: 12px;
+       border: none;
+       cursor: pointer;
+       transition: transform 0.9s;
+       margin-bottom: 15px;
+       margin-left: -6px;
+   }
 
-.Academy ul ul p a button:hover {
-    transform: scale(1.019);
-    text-shadow: 2px 5px 3px #0000007a;
-}
+   .Academy ul ul p a button:hover {
+       transform: scale(1.019);
+       text-shadow: 2px 5px 3px #0000007a;
+   }
 
-.Academy img {
-    width: 345px;
-    height: 195px;
-    margin-left: -5px;
-}
+   .Academy img {
+       width: 345px;
+       height: 195px;
+       margin-left: -5px;
+   }
