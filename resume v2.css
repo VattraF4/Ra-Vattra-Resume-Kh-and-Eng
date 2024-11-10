@@ -55,7 +55,7 @@
    .menu li a {
        font-family: 'Koulen', cursive;
        text-decoration: none;
-       color: #333e7a;
+       color: #ffffff;
        font-weight: bold;
        transition: color 0.3s;
        /* font-family: 'Times New Roman', Times, serif; */
@@ -272,7 +272,7 @@
    }
 
    .Academy img {
-       width: 345px;
-       height: 195px;
+       width: auto;
+       height: auto;
        margin-left: -5px;
    }
