@@ -72,6 +72,18 @@
        font-family: 'Khmer S1', cursive;
    }
 
+   .Reference ul li {
+       list-style-type: square;
+   }
+
+   .Reference a {
+       text-decoration: none;
+       color: #cfd1dd;
+       font-weight: bold;
+       transition: color 0.3s;
+       font-family: 'Times New Roman', Times, serif;
+   }
+
    .right-section {
        background-color: #3f4750;
        width: 70%;
@@ -126,15 +138,15 @@
    }
 
    .contact-info p i a {
-    text-decoration: none;
-    color: white;
-    font-weight: normal;
-    font-family: 'Khmer S1', cursive;
-}
+       text-decoration: none;
+       color: white;
+       font-weight: normal;
+       font-family: 'Khmer S1', cursive;
+   }
 
-.contact-info p i a:hover {
-    color: #00f7ff;
-}
+   .contact-info p i a:hover {
+       color: #00f7ff;
+   }
 
    .contact-info i,
    .languages i,
@@ -212,11 +224,10 @@
    }
 
    .Academy h3 {
-       color: #000000;
-       font-family: 'Koulen', cursive;
-       text-decoration: underline #7a9abd;
-   }
-
+    color: #47e74f;
+    font-family: 'Koulen', cursive;
+    text-decoration: underline #7a9abd;
+}
    .Academy ul p {
        color: #00f7ff;
        /* transform: scale(1.0); */

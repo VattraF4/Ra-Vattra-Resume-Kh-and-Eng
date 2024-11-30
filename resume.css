@@ -69,6 +69,19 @@
        width: 30%;
        padding: 20px;
    }
+   /* .left-section a {
+       
+   } */
+   .Reference ul li {
+       list-style-type: square;
+   }
+   .Reference a {
+       text-decoration: none;
+       color: #cfd1dd;
+       font-weight: bold;
+       transition: color 0.3s;
+       font-family: 'Times New Roman', Times, serif;
+   }
 
    .right-section {
        background-color: #3f4750;
@@ -191,7 +204,7 @@
    }
 
    .Academy h3 {
-       color: #000000;
+       color: #47e74f;
        font-family: 'Koulen', cursive;
        text-decoration: underline #7a9abd;
    }
