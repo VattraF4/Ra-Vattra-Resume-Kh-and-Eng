@@ -19,7 +19,7 @@ function addStructuredData() {
     });
     document.head.appendChild(script);
   }
-  
   // Call the function to add structured data to the document head
   addStructuredData();
+
   

@@ -23,11 +23,16 @@
         content="Ra Vattra, Vattra's Resume Website, VattraF4, Vattra F5, Vattra Ra, Ra Vattra RUPP, IT student at RUPP, Vattra coding projects" />
     <!-- <meta http-equiv="refresh" content="120;url=https://vattraf4.github.io/Portfiliov2/"> -->
 
+
     <title>
         Ra Vattra - IT and Coding Portfolio | RUPP Student
     </title>
-    <script src="script.js"></script>
 
+
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="script.js"></script>
+    <script src="animation.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="resume.css">
     <link rel="icon" href="Source/icon/fav-image.png" type="image/x-icon">
@@ -53,7 +58,7 @@
         <div class="left-section">
             <a href="https://github.com/VattraF4">
                 <img alt="Profile picture of Ra Vattra, a third-year Computer Science and Engineering student"
-                    class="profile-pic" height="100" src="Source/profile.jpg" width="100" />
+                    class="profile-pic" height="100" src="Source/img/profile.jpg" width="100" />
             </a>
 
             <div class="name-title" id="name-title">
@@ -297,8 +302,12 @@
                         Hun Sen Khnar High School
                     </p>
                 </div>
-            </div>
-            <div class="certificates">
+            </div><hr><br>
+            <!-- I try to set hide certficate -->
+            <button id="certificate-list-btn">Show All My Certificates</button>
+    
+
+            <div class="certificates-item" id="certificates">
                 <h2 class="section-title">
                     Certificate
                 </h2>
@@ -428,17 +437,3 @@
 </body>
 
 </html>
-<!-- <div class="certificate-item">
-                                <h3>
-                                    Jun-2015: Computer Training Course in MS-Word, MS-Excel 2010
-                                </h3>
-                                <ul>
-                
-                                    <li>
-                                        RSR Foreign Language Center (Rin Saron)
-                                    </li>
-                                    <li>
-                                        No 007, Tbong Khmum provincial Office of Education, Youth and Sport
-                                    </li>
-                                </ul>
-</div> -->
