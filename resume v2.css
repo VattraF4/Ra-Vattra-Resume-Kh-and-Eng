@@ -212,21 +212,17 @@
    .experience-item ul ul li {
        margin-left: -20px;
    }
-
    button {
-       background-color: #3498db;
-       color: white;
-       padding: 10px;
-       font-size: 12px;
-       border: none;
-       cursor: pointer;
-       transition: transform 0.9s;
-       margin-bottom: 15px;
-       margin-left: -6px;
-       height: 100vh;
-       width: 100%;
-   }
-
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.9s;
+    margin-bottom: 15px;
+    margin-left: -6px;
+}
 
    button:hover {
        transform: scale(1.019);
