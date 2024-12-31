@@ -1,0 +1,319 @@
+   body {
+       font-family: 'Arial', sans-serif;
+       margin: 0;
+       padding: 0;
+       background-color: #1a1a1a;
+       color: #ffffff;
+   }
+
+   .container {
+       display: flex;
+       flex-direction: row;
+       width: 100%;
+       margin-top: 50px;
+   }
+
+   nav {
+
+       background-color: black;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 10px 20px;
+       position: fixed;
+       top: 0;
+       width: 99%;
+       height: 40px;
+   }
+
+   .logo a {
+       text-decoration: none;
+       color: white;
+       list-style-type: none;
+       /* font-weight: normal; */
+       transition: color blue 0.3s, transform 0.3s;
+       font-family: 'Koulen', cursive;
+   }
+
+   .logo a:hover {
+       color: #0fd4d4a8;
+       transform: scale(1.1);
+   }
+
+   .menu {
+
+       list-style-type: none;
+       display: flex;
+       background-color: black;
+       margin-right: 15px;
+   }
+
+   .menu li {
+       margin-right: 20px;
+   }
+
+   .menu li a {
+       font-family: 'Koulen', cursive;
+       text-decoration: none;
+       color: #ffffff;
+       font-weight: bold;
+       transition: color 0.3s;
+       /* font-family: 'Times New Roman', Times, serif; */
+   }
+
+   .menu a:hover {
+       color: #007bff;
+   }
+
+   .left-section {
+       background-color: #1a1a1a;
+       width: 30%;
+       padding: 20px;
+       font-family: 'Khmer S1', cursive;
+   }
+
+   .Reference ul li {
+       list-style-type: square;
+   }
+
+   .Reference a {
+       text-decoration: none;
+       color: #cfd1dd;
+       font-weight: bold;
+       transition: color 0.3s;
+       font-family: 'Times New Roman', Times, serif;
+   }
+
+   .right-section {
+       background-color: #3f4750;
+       width: 70%;
+       padding: 20px;
+   }
+
+   .profile-pic {
+       width: 100px;
+       height: 100px;
+       border-radius: 50%;
+       margin: 0 auto;
+       display: block;
+   }
+
+   .name-title {
+       text-align: center;
+       margin-top: 10px;
+   }
+
+   .name-title h1 {
+       font-family: 'Khmer OS', cursive;
+       margin: 0;
+       font-size: 24px;
+   }
+
+   .name-title h2 {
+       font-family: 'Khmer OS', cursive;
+       margin: 0;
+       font-size: 18px;
+       color: #cccccc;
+   }
+
+   .section-title {
+       font-family: 'Moul', cursive;
+       font-size: 19px;
+       margin-top: 20px;
+       margin-bottom: 10px;
+
+       color: #b17451;
+   }
+
+   .contact-info,
+   .languages,
+   .activities {
+       margin-top: 20px;
+   }
+
+   .contact-info p,
+   .languages p,
+   .activities p {
+       margin: 5px 0;
+   }
+
+   .contact-info p i a {
+       text-decoration: none;
+       color: white;
+       font-weight: normal;
+       font-family: 'Khmer S1', cursive;
+   }
+
+   .contact-info p i a:hover {
+       color: #00f7ff;
+   }
+
+   .contact-info i,
+   .languages i,
+   .activities i {
+       margin-right: 10px;
+   }
+
+   .experience,
+   .education,
+   .certificates {
+       margin-top: 20px;
+   }
+
+   .experience-item,
+   .education-item,
+   .certificate-item {
+       margin-bottom: 20px;
+   }
+
+   .experience-item h3,
+   .education-item h3,
+   .certificate-item h3 {
+       margin: 0;
+       font-size: 19px;
+       font-weight: bold;
+       color: #12c9c0;
+       padding: 5px;
+       margin-left: 10px;
+
+   }
+
+   .experience-item p,
+   .education-item p,
+   .certificate-item p {
+       font-family: 'Khmer S1', cursive;
+       margin: 5px 0;
+       /* text-decoration: underline; */
+       font-weight: bold;
+       color: #00f7ff;
+   }
+
+   .experience-item p1,
+   .education-item p1,
+   .certificate-item p1 {
+       font-family: 'Khmer S1', cursive;
+       margin: 5px 0;
+       /* text-decoration: underline; */
+       font-weight: bold;
+       color: #ffffff;
+   }
+
+   .certificate-item a {
+       text-decoration: none;
+       transition: color 0.3s;
+       font-family: 'Times New Roman', Times, serif;
+
+   }
+
+   .experience-item ul {
+       font-family: 'Khmer S1', cursive;
+       list-style-type: disc;
+       margin: 5px 0 0 20px;
+   }
+
+   .experience-item ul ul li {
+       margin-left: -20px;
+   }
+
+   button {
+       background-color: #3498db;
+       color: white;
+       padding: 10px;
+       font-size: 12px;
+       border: none;
+       cursor: pointer;
+       transition: transform 0.9s;
+       margin-bottom: 15px;
+       margin-left: -6px;
+   }
+
+   button:hover {
+       transform: scale(1.019);
+       text-shadow: 2px 5px 3px #0000007a;
+   }
+
+   #certificate-list-btn {
+       background-color: #2c8ed4;
+       position: obsolute;
+       padding: 20px;
+       border-radius: 5px;
+       font-size: 12px;
+       margin-top: 25px;
+
+   }
+
+   .Academy {
+       background-color: #0000001e;
+
+       .Academy {
+           background-color: #0000001e;
+           width: 100%;
+
+       }
+   }
+
+   .Academy h3 {
+       color: #47e74f;
+       font-family: 'Koulen', cursive;
+       text-decoration: underline #7a9abd;
+   }
+
+   .Academy ul p {
+       color: #00f7ff;
+       /* transform: scale(1.0); */
+   }
+
+   .Academy ul p:hover {
+       color: #00f7ff;
+       text-shadow: 2px 5px 3px #0000007a;
+
+   }
+
+   .Academy ul p a {
+       color: #00f7ff;
+
+   }
+
+   .Academy ul p a:hover {
+       color: #00f7ff;
+       text-shadow: 2px 5px 3px #0000007a;
+
+   }
+
+   .Academy ul ul p a {
+       color: white;
+       font-family: 'Khmer S1', cursive;
+       transition: transform 0.3s;
+       transform: scale(1.0);
+   }
+
+   .Academy ul ul a:hover {
+       color: #cdcfd1;
+       /* color: #007bff; */
+       text-shadow: 2px 5px 3px #0000007a;
+       transform: scale(1.5);
+   }
+
+   .Academy ul ul p a button {
+       background-color: #3498db;
+       color: white;
+       font-family: 'Khmer S1', cursive;
+       padding: 10px;
+       font-size: 12px;
+       border: none;
+       cursor: pointer;
+       transition: transform 0.4s;
+       margin-bottom: 15px;
+       margin-left: -6px;
+   }
+
+   .Academy ul ul p a button:hover {
+       transform: scale(1.019);
+       text-shadow: 2px 5px 3px #0000007a;
+   }
+
+   .Academy img {
+       width: auto;
+       height: auto;
+       margin-left: -5px;
+   }
