@@ -173,8 +173,11 @@
    .education-item h3,
    .certificate-item h3 {
        margin: 0;
-       font-size: 18px;
-       color: #10042e;
+       font-size: 19px;
+       font-weight: bold;
+       color: #12c9c0;
+       padding: 5px;
+       margin-left: 10px;
 
    }
 

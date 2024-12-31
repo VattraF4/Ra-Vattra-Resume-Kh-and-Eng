@@ -30,7 +30,7 @@
        text-decoration: none;
        color: white;
        list-style-type: none;
-       /* font-weight: bold; */
+       /* font-weight: normal; */
        transition: color blue 0.3s, transform 0.3s;
        font-family: 'Koulen', cursive;
    }
@@ -169,10 +169,12 @@
    .experience-item h3,
    .education-item h3,
    .certificate-item h3 {
-       font-family: 'Koulen';
        margin: 0;
-       font-size: 18px;
-       color: #10042e;
+       font-size: 19px;
+       font-weight: bold;
+       color: #12c9c0;
+       padding: 5px;
+       margin-left: 10px;
 
    }
 
@@ -212,17 +214,18 @@
    .experience-item ul ul li {
        margin-left: -20px;
    }
+
    button {
-    background-color: #3498db;
-    color: white;
-    padding: 10px;
-    font-size: 12px;
-    border: none;
-    cursor: pointer;
-    transition: transform 0.9s;
-    margin-bottom: 15px;
-    margin-left: -6px;
-}
+       background-color: #3498db;
+       color: white;
+       padding: 10px;
+       font-size: 12px;
+       border: none;
+       cursor: pointer;
+       transition: transform 0.9s;
+       margin-bottom: 15px;
+       margin-left: -6px;
+   }
 
    button:hover {
        transform: scale(1.019);
